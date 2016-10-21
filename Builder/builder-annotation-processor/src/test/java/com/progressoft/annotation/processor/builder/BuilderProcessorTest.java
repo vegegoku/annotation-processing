@@ -46,6 +46,13 @@ public class BuilderProcessorTest {
                 .generates(getExpectedResultFileContent("AnnotatedClassWithManyFieldsBuilder.java"));
     }
 
+    @Test
+    public void annotatedClassHavingRequiredProperties_shouldGenerateBuilderWithConstructorOfAllRequiredProperties() throws Exception {
+        ProcessorAssert.assertProcessing(BASE_PACKAGE + "AnnotatedClassWithRequiredFields.java")
+                .withProcessor(new BuilderAnnotationProcessor())
+                .generates(getExpectedResultFileContent("AnnotatedClassWithRequiredFieldsBuilder.java"));
+    }
+
     private String getExpectedResultFileContent(String resourceName) throws IOException {
         try(InputStream resourceInputStream=this.getClass().getResourceAsStream("results/"+resourceName)){
             return IOUtils.toString(resourceInputStream,"UTF-8");

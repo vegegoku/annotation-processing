@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cda9210-c33f-40f5-835c-19e7c29a7a89" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithRequiredFields.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder-annotations/src/main/java/com/progressoft/annotation/processor/builder/BuilderRequired.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java" afterPath="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Xyz.java" afterPath="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Xyz.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/ProcessorElement.java" afterPath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/ProcessorElement.java" />
     </list>
     <ignored path="Builder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,19 +44,22 @@
       <file leaf-file-name="BuilderProcessorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="44" column="30" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="30" />
+            <state relative-caret-position="160">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/builder-client/pom.xml">
+      <file leaf-file-name="EmptyAnnotatedClassBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="95">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,28 +67,8 @@
       <file leaf-file-name="Xyz.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Xyz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnnotatedClassWithManyFields.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithManyFields.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuilderAnnotationProcessor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+            <state relative-caret-position="247">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,46 +76,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnnotatedClassWithSinglePropertyBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java">
+      <file leaf-file-name="AnnotatedClassWithManyFields.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithManyFields.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#184#185#0" expanded="false" />
-                <element signature="e#257#258#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnnotatedClassWithManyFieldsBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="228">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuilderClientTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java">
+      <file leaf-file-name="BuilderAnnotationProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="65">
+              <caret line="63" column="99" selection-start-line="63" selection-start-column="99" selection-end-line="63" selection-end-column="99" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#6323#6324#0" expanded="true" />
+                <element signature="e#6366#6367#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Abc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Abc.java">
+      <file leaf-file-name="AnnotatedClassWithRequiredFields.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithRequiredFields.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="342">
+              <caret line="18" column="37" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatedClassWithRequiredFieldsBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuilderClientTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatedClassWithSinglePropertyBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,9 +147,10 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Class resource" />
-        <option value="AnnotationType" />
         <option value="TestClass" />
         <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="Annotation" />
       </list>
     </option>
   </component>
@@ -164,20 +179,23 @@
         <option value="$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/ProcessorElement.java" />
         <option value="$PROJECT_DIR$/builder-annotation-processor/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" />
         <option value="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithSingleProperty.java" />
         <option value="$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/AnnotatedClassWithManyFieldsBuilder.java" />
         <option value="$PROJECT_DIR$/builder-client/pom.xml" />
         <option value="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Test.java" />
         <option value="$MAVEN_REPOSITORY$/com/progressoft/annotations/processing/processor-utils/1.0-SNAPSHOT/processor-utils-1.0-SNAPSHOT.jar!/com/progressoft/annotations/processing/JfwProcessor.class" />
-        <option value="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java" />
         <option value="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Abc.java" />
-        <option value="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Xyz.java" />
-        <option value="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" />
-        <option value="$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" />
-        <option value="$PROJECT_DIR$/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java" />
         <option value="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithManyFields.java" />
+        <option value="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithRequiredFields.java" />
+        <option value="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java" />
+        <option value="$PROJECT_DIR$/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java" />
+        <option value="$PROJECT_DIR$/builder-annotations/src/main/java/com/progressoft/annotation/processor/builder/BuilderRequired.java" />
         <option value="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" />
+        <option value="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" />
+        <option value="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" />
+        <option value="$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" />
+        <option value="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Xyz.java" />
+        <option value="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java" />
       </list>
     </option>
   </component>
@@ -339,6 +357,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="builder-annotations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builder-annotations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="builder-annotation-processor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -472,7 +538,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -483,16 +549,16 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.progressoft.annotation.processor.builder" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder" />
-      <recent name="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results" />
-      <recent name="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.progressoft.annotation.processor.builder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results" />
+      <recent name="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder" />
+      <recent name="$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.progressoft.annotation.processor.builder" />
@@ -838,34 +904,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BuilderProcessorTest - 2016.10.21 at 11h 47m 41s.xml">
+    <history-entry file="BuilderProcessorTest - 2016.10.21 at 16h 21m 45s.xml">
       <configuration name="BuilderProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuilderProcessorTest - 2016.10.21 at 11h 49m 31s.xml">
+    <history-entry file="BuilderProcessorTest - 2016.10.21 at 16h 22m 14s.xml">
       <configuration name="BuilderProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuilderProcessorTest - 2016.10.21 at 11h 49m 59s.xml">
+    <history-entry file="BuilderProcessorTest - 2016.10.21 at 16h 28m 17s.xml">
       <configuration name="BuilderProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuilderProcessorTest - 2016.10.21 at 11h 53m 11s.xml">
+    <history-entry file="BuilderProcessorTest - 2016.10.21 at 16h 28m 45s.xml">
       <configuration name="BuilderProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuilderProcessorTest - 2016.10.21 at 15h 37m 07s.xml">
+    <history-entry file="BuilderProcessorTest - 2016.10.21 at 16h 56m 05s.xml">
       <configuration name="BuilderProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuilderProcessorTest - 2016.10.21 at 15h 38m 16s.xml">
+    <history-entry file="BuilderProcessorTest - 2016.10.21 at 16h 57m 00s.xml">
       <configuration name="BuilderProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuilderProcessorTest - 2016.10.21 at 15h 43m 12s.xml">
+    <history-entry file="BuilderProcessorTest - 2016.10.21 at 16h 57m 26s.xml">
       <configuration name="BuilderProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuilderProcessorTest - 2016.10.21 at 15h 45m 35s.xml">
+    <history-entry file="BuilderProcessorTest - 2016.10.21 at 16h 58m 15s.xml">
       <configuration name="BuilderProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuilderProcessorTest - 2016.10.21 at 15h 46m 57s.xml">
+    <history-entry file="BuilderProcessorTest - 2016.10.21 at 16h 59m 30s.xml">
       <configuration name="BuilderProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuilderProcessorTest - 2016.10.21 at 15h 47m 20s.xml">
+    <history-entry file="BuilderProcessorTest - 2016.10.21 at 17h 00m 06s.xml">
       <configuration name="BuilderProcessorTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -875,17 +941,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30810812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30802602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33188722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -932,40 +998,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/EmptyAnnotatedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builder-annotations/src/main/java/com/progressoft/annotation/processor/builder/WithBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/NotAnnotatedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6323#6324#0" expanded="true" />
+            <element signature="e#6366#6367#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1015,6 +1055,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1022,6 +1065,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,6 +1085,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6323#6324#0" expanded="true" />
+            <element signature="e#6366#6367#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1088,18 +1137,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/ProcessingException.java" />
     <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/ProcessorElement.java" />
-    <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -1146,36 +1191,10 @@
     <entry file="file://$PROJECT_DIR$/builder-client/target/generated-test-sources/test-annotations/Xyz/com/progressoft/annotation/processor.java" />
     <entry file="file://$PROJECT_DIR$/builder-client/target/generated-sources/test-annotations/Xyz/com/progressoft/annotation/processor.java" />
     <entry file="file://$PROJECT_DIR$/builder-client/target/generated-sources/test-annotations/com/progressoft/annotation/processor/Xyz.java" />
-    <entry file="file://$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Abc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Xyz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builder-client/target/generated-test-sources/test-annotations/com/progressoft/annotation/processor/XyzBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1188,48 +1207,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/builder-annotations/src/main/java/com/progressoft/annotation/processor/builder/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder-annotations/src/main/java/com/progressoft/annotation/processor/builder/BuilderRequired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#184#185#0" expanded="false" />
-            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="44" column="30" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="30" />
+        <state relative-caret-position="160">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithManyFields.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="228">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java">
+    <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithRequiredFields.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="342">
+          <caret line="18" column="37" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        <state relative-caret-position="65">
+          <caret line="63" column="99" selection-start-line="63" selection-start-column="99" selection-end-line="63" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6323#6324#0" expanded="true" />
+            <element signature="e#6366#6367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Xyz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder-client/target/generated-test-sources/test-annotations/com/progressoft/annotation/processor/XyzBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

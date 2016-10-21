@@ -3,7 +3,10 @@ package com.progressoft.annotations.processing;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.TypeElement;
+import java.lang.annotation.Annotation;
+import java.util.Objects;
 import java.util.StringTokenizer;
+import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 public class ProcessorElement {
@@ -30,6 +33,14 @@ public class ProcessorElement {
 
     public Stream<? extends Element> fieldsStream(){
         return element.getEnclosedElements().stream().filter(element -> element.getKind()== ElementKind.FIELD);
+    }
+
+    public <A extends Annotation> Stream<? extends Element> fieldsAnnotatedWithStream(Class<A> annotationClass){
+        return element.getEnclosedElements().stream().filter(element -> element.getKind()== ElementKind.FIELD).filter(element -> fieldAnnotatedWith(element, annotationClass));
+    }
+
+    private <A extends Annotation> boolean fieldAnnotatedWith(Element element, Class<A> annotationClass) {
+        return Objects.nonNull(element.getAnnotation(annotationClass));
     }
 
     public ImportsWriter asImports(){

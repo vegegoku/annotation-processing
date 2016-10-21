@@ -7,13 +7,13 @@ import static org.junit.Assert.*;
 
 public class BuilderClientTest {
 
-    @Before
+    @Beforemvn
     public void setUp() throws Exception {
 
     }
 
     @Test
     public void nothing() throws Exception {
-        System.out.println(new XyzBuilder().booleanValue(true).boolValue(false).doubleValue(5d).dValue(7d).integerValue(8).intValue(0).stringValue("jjjjd").build().toString());
+        System.out.println(new XyzBuilder(10, 10).booleanValue(true).boolValue(false).doubleValue(5d).dValue(7d).stringValue("jjjjd").build().toString());
     }
 }

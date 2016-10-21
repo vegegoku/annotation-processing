@@ -13,6 +13,10 @@ class AnnotatedClassWithManyFieldsBuilder {
     private double dValue;
     private List<String> stringsList;
 
+    AnnotatedClassWithManyFieldsBuilder(){
+
+    }
+
     AnnotatedClassWithManyFields build() {
         return new AnnotatedClassWithManyFields(integerValue, intValue, stringValue, booleanValue, boolValue, doubleValue, dValue, stringsList);
     }

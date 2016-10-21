@@ -13,6 +13,8 @@ import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
 import java.io.IOException;
 import java.io.Writer;
+import java.sql.BatchUpdateException;
+import java.util.Objects;
 import java.util.Set;
 
 @AutoService(Processor.class)
@@ -47,6 +49,7 @@ public class BuilderAnnotationProcessor extends JfwProcessor {
                 imports(processorElement) +
                 builderClassDefenition(processorElement) +
                 builderFields(processorElement) +
+                builderConstructor(processorElement)+
                 buildMethodSignature(processorElement) +
                 buildMethodBody(processorElement) +
                 buildMethodClosing() +
@@ -54,9 +57,30 @@ public class BuilderAnnotationProcessor extends JfwProcessor {
                 classClosing();
     }
 
+    private String builderConstructor(ProcessorElement processorElement) {
+        StringBuilder sb=new StringBuilder();
+        sb.append("    ").append(processorElement.simpleName()).append(BUILDER).append("(")
+                .append(constructorFields(processorElement))
+        .append("){\n").append(constructorFieldsInitialization(processorElement)).append("    }\n\n");
+
+        return sb.toString();
+    }
+
+    private String constructorFields(ProcessorElement processorElement) {
+        StringBuilder sb=new StringBuilder();
+        processorElement.fieldsAnnotatedWithStream(BuilderRequired.class).forEach(element -> sb.append(new ProcessorElement(element).asSimpleType()).append(" ").append(element.getSimpleName()).append(", "));
+        return sb.toString().endsWith(", ")?sb.toString().substring(0,sb.toString().length()-2):sb.toString();
+    }
+
+    private String constructorFieldsInitialization(ProcessorElement processorElement) {
+        StringBuilder sb=new StringBuilder();
+        processorElement.fieldsAnnotatedWithStream(BuilderRequired.class).forEach(element -> sb.append("        this.").append(element.getSimpleName()).append(" = ").append(element.getSimpleName()).append(";\n"));
+        return sb.toString();
+    }
+
     private String builderFieldsSetters(ProcessorElement processorElement) {
         StringBuilder sb = new StringBuilder();
-        processorElement.fieldsStream().forEach(element -> sb.append("\n    ")
+        processorElement.fieldsStream().filter(element -> notRequired(element)).forEach(element -> sb.append("\n    ")
                 .append(processorElement.asSimpleType()).append(BUILDER).append(" ")
                 .append(element.getSimpleName()).append("(")
                 .append(new ProcessorElement(element).asSimpleType())
@@ -69,7 +93,7 @@ public class BuilderAnnotationProcessor extends JfwProcessor {
 
     private String builderFields(ProcessorElement processorElement) {
         StringBuilder sb = new StringBuilder();
-        processorElement.fieldsStream().forEach(element -> sb.append("    private ").append(new ProcessorElement(element).asSimpleType()).append(" ").append(element.getSimpleName()).append(";\n"));
+        processorElement.fieldsStream().forEach(element -> sb.append("    private ").append(isRequired(element)?"final ":"").append(new ProcessorElement(element).asSimpleType()).append(" ").append(element.getSimpleName()).append(";\n"));
         return sb.append("\n").toString();
     }
 
@@ -91,10 +115,10 @@ public class BuilderAnnotationProcessor extends JfwProcessor {
         return removeLastComma(sb.toString());
     }
 
-    private String removeLastComma(String commaSeperatedParameters) {
-        if(commaSeperatedParameters.endsWith(","))
-            return commaSeperatedParameters.substring(0, commaSeperatedParameters.lastIndexOf(","));
-        return commaSeperatedParameters;
+    private String removeLastComma(String commaSeparatedParameters) {
+        if(commaSeparatedParameters.endsWith(","))
+            return commaSeparatedParameters.substring(0, commaSeparatedParameters.lastIndexOf(","));
+        return commaSeparatedParameters;
     }
 
     private String buildMethodSignature(ProcessorElement processorElement) {
@@ -107,5 +131,13 @@ public class BuilderAnnotationProcessor extends JfwProcessor {
 
     private String builderPackage(ProcessorElement processorElement) {
         return "package " + processorElement.elementPackage() + ";\n\n";
+    }
+
+    private boolean isRequired(Element element){
+        return Objects.nonNull(element.getAnnotation(BuilderRequired.class));
+    }
+
+    private boolean notRequired(Element element){
+        return !isRequired(element);
     }
 }

@@ -5,6 +5,10 @@ class AnnotatedClassWithSinglePropertyBuilder {
 
     private Integer integerValue;
 
+    AnnotatedClassWithSinglePropertyBuilder(){
+
+    }
+
     AnnotatedClassWithSingleProperty build(){
         return new AnnotatedClassWithSingleProperty(integerValue);
     }

@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edea5e53-5986-4093-b2f4-88fd0579ecf3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithRequiredFields.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Builder/builder-annotations/src/main/java/com/progressoft/annotation/processor/builder/BuilderRequired.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java" afterPath="$PROJECT_DIR$/../Builder/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-client/src/test/java/com/progressoft/annotation/processor/Xyz.java" afterPath="$PROJECT_DIR$/../Builder/builder-client/src/test/java/com/progressoft/annotation/processor/Xyz.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/ProcessorElement.java" afterPath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/ProcessorElement.java" />
     </list>
     <ignored path="processor-test.iws" />
     <ignored path=".idea/workspace.xml" />
