@@ -1,5 +1,7 @@
 package com.progressoft.annotation.processor.builder;
 
+import java.util.List;
+
 class AnnotatedClassWithManyFieldsBuilder {
 
     private Integer integerValue;
@@ -9,9 +11,10 @@ class AnnotatedClassWithManyFieldsBuilder {
     private boolean boolValue;
     private Double doubleValue;
     private double dValue;
+    private List<String> stringsList;
 
     AnnotatedClassWithManyFields build() {
-        return new AnnotatedClassWithManyFields(integerValue, intValue, stringValue, booleanValue, boolValue, doubleValue, dValue);
+        return new AnnotatedClassWithManyFields(integerValue, intValue, stringValue, booleanValue, boolValue, doubleValue, dValue, stringsList);
     }
 
     AnnotatedClassWithManyFieldsBuilder integerValue(Integer integerValue) {
@@ -46,6 +49,11 @@ class AnnotatedClassWithManyFieldsBuilder {
 
     AnnotatedClassWithManyFieldsBuilder dValue(double dValue) {
         this.dValue = dValue;
+        return this;
+    }
+
+    AnnotatedClassWithManyFieldsBuilder stringsList(List<String> stringsList) {
+        this.stringsList = stringsList;
         return this;
     }
 

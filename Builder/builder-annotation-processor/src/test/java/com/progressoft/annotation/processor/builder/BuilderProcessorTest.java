@@ -46,8 +46,6 @@ public class BuilderProcessorTest {
                 .generates(getExpectedResultFileContent("AnnotatedClassWithManyFieldsBuilder.java"));
     }
 
-
-
     private String getExpectedResultFileContent(String resourceName) throws IOException {
         try(InputStream resourceInputStream=this.getClass().getResourceAsStream("results/"+resourceName)){
             return IOUtils.toString(resourceInputStream,"UTF-8");
