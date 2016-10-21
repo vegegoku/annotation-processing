@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cda9210-c33f-40f5-835c-19e7c29a7a89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithRequiredFields.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder-annotations/src/main/java/com/progressoft/annotation/processor/builder/BuilderRequired.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" afterPath="$PROJECT_DIR$/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java" afterPath="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Xyz.java" afterPath="$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/Xyz.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/ProcessorElement.java" afterPath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/ProcessorElement.java" />
     </list>
     <ignored path="Builder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -900,7 +886,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477054749799</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactoring">
+      <created>1477060579045</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1477060579045</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1317,7 +1310,7 @@
     <entry file="file://$PROJECT_DIR$/builder-client/src/test/java/com/progressoft/annotation/processor/BuilderClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding />
         </state>
       </provider>
