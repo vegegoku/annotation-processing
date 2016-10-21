@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac3cf138-9073-4dd4-bcee-109e1dbb5b9e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/ImportsWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/JfwProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/ProcessingException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/ProcessorElement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/processor-utils-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/classes/com/progressoft/annotation/processor/test/InputSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/classes/com/progressoft/annotation/processor/test/ProcessorAssert.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/classes/com/progressoft/annotation/processor/test/TargetProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/processor-test-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Copier.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -920,7 +920,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477054100650</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactoring">
+      <created>1477055096569</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1477055096569</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -966,9 +973,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32324323" sideWeight="0.50193477" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35900217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35900217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.49806523" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.49806523" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24156992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
