@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cda9210-c33f-40f5-835c-19e7c29a7a89" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/builder-annotation-processor-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/classes/META-INF/services/javax.annotation.processing.Processor" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/classes/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/surefire-reports/TEST-com.progressoft.annotation.processor.builder.BuilderProcessorTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/surefire-reports/com.progressoft.annotation.processor.builder.BuilderProcessorTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/AnnotatedClassWithManyFields.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/AnnotatedClassWithSingleProperty.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/BuilderProcessorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/EmptyAnnotatedClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/NotAnnotatedClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotations/target/builder-annotations-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotations/target/classes/com/progressoft/annotation/processor/builder/WithBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-annotations/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-client/target/builder-client-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-client/target/generated-test-sources/test-annotations/com/progressoft/annotation/processor/XyzBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-client/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-client/target/surefire-reports/TEST-com.progressoft.annotation.processor.BuilderClientTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-client/target/surefire-reports/com.progressoft.annotation.processor.BuilderClientTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-client/target/test-classes/com/progressoft/annotation/processor/Abc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-client/target/test-classes/com/progressoft/annotation/processor/BuilderClientTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-client/target/test-classes/com/progressoft/annotation/processor/Xyz.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builder-client/target/test-classes/com/progressoft/annotation/processor/XyzBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/ImportsWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/JfwProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/ProcessingException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/ProcessorElement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/processor-utils-1.0-SNAPSHOT.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" />
@@ -99,8 +79,8 @@
       <file leaf-file-name="BuilderAnnotationProcessor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+            <state relative-caret-position="268">
+              <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -854,7 +834,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477054313120</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactoring">
+      <created>1477054749799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1477054749799</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1245,8 +1232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+        <state relative-caret-position="268">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

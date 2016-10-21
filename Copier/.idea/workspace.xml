@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac3cf138-9073-4dd4-bcee-109e1dbb5b9e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/builder-annotation-processor-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/classes/META-INF/services/javax.annotation.processing.Processor" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/classes/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/surefire-reports/TEST-com.progressoft.annotation.processor.builder.BuilderProcessorTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/surefire-reports/com.progressoft.annotation.processor.builder.BuilderProcessorTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/AnnotatedClassWithManyFields.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/AnnotatedClassWithSingleProperty.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/BuilderProcessorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/EmptyAnnotatedClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/NotAnnotatedClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotations/target/builder-annotations-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotations/target/classes/com/progressoft/annotation/processor/builder/WithBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-annotations/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-client/target/builder-client-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-client/target/generated-test-sources/test-annotations/com/progressoft/annotation/processor/XyzBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-client/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-client/target/surefire-reports/TEST-com.progressoft.annotation.processor.BuilderClientTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-client/target/surefire-reports/com.progressoft.annotation.processor.BuilderClientTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-client/target/test-classes/com/progressoft/annotation/processor/Abc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-client/target/test-classes/com/progressoft/annotation/processor/BuilderClientTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-client/target/test-classes/com/progressoft/annotation/processor/Xyz.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Builder/builder-client/target/test-classes/com/progressoft/annotation/processor/XyzBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/ImportsWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/JfwProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/ProcessingException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/ProcessorElement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-utils/target/processor-utils-1.0-SNAPSHOT.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" />
