@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 
 public class BuilderClientTest {
 
-    @Beforemvn
+    @Before
     public void setUp() throws Exception {
 
     }
