@@ -1,7 +1,7 @@
-# annotation-processing
+# Annotation-processing
 a set of annotation processors and utilities for annotation processing development and testing
 
-# copier-annotation
+# Copier annotation
 An annotation with annotation processor to generate copier classes for datastructures
 
 processor-test project contains the required dependencies to test an annotation processor plus a wrapper i wrote to make the testing easier.
