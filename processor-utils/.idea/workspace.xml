@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c61a57-6164-4962-a458-c7e0bc8d2247" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/classes/com/progressoft/annotation/processor/test/InputSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/classes/com/progressoft/annotation/processor/test/ProcessorAssert.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/classes/com/progressoft/annotation/processor/test/TargetProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../processor-test/target/processor-test-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" />
     </list>
     <ignored path="processor-utils.iws" />
     <ignored path=".idea/workspace.xml" />

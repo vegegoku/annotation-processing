@@ -2,95 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edea5e53-5986-4093-b2f4-88fd0579ecf3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/META-INF/services/javax.annotation.processing.Processor" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/CopierAnnotationProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/FieldCopyStatementFactory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/FieldCopyStatementFactory$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/FieldCopyStatementFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/FieldsCopyStatementGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/accessor/AccessorSingleFieldCopyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/accessor/ArrayListAccessorCopier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/accessor/HashMapAccessorCopier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/accessor/HashSetAccessorCopier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/accessor/LinkedListAccessorCopier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/publicmembers/ArrayListPublicFieldGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/publicmembers/HashMapPublicFieldGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/publicmembers/HashSetPublicFieldGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/publicmembers/LinkedListPublicFieldGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/generators/publicmembers/SimplePublicFieldCopyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/copier-annotations-processor-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/surefire-reports/TEST-com.progressoft.annotation.processor.copier.CopierAnnotationProcessorTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/surefire-reports/com.progressoft.annotation.processor.copier.CopierAnnotationProcessorTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithCollections.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithDeepCopyField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithDeepCopyPublicField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithFields4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithIgnoredFieldUsingAccessors.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithIgnoredFieldUsingPublicFields.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithPublicCollections.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithPublicMemebersAndNoAccessories.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithSingleField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/AnnotatedClassWithVariablesAndCollection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/CopierAnnotationProcessorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/EmptyAnnotatedClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/NoneAnnotatedSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/SecondEmptyAnnotatedClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithCollectionsCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields2Copier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields3Copier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithFields4Copier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithPublicCollectionsCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithSingleFieldCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/AnnotatedClassWithVariablesAndCollectionCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/EmptyAnnotatedClassResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/target/test-classes/com/progressoft/annotation/processor/copier/results/SecondEmptyAnnotatedClassResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotations/target/classes/com/progressoft/annotation/processor/copier/CollectionCopy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotations/target/classes/com/progressoft/annotation/processor/copier/DeepCopy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotations/target/classes/com/progressoft/annotation/processor/copier/IgnoreCopy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotations/target/classes/com/progressoft/annotation/processor/copier/WithCopier$Mode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotations/target/classes/com/progressoft/annotation/processor/copier/WithCopier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotations/target/copier-annotations-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotations/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotations/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotations/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-annotations/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/AnnotatedClassWithFields4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/AnnotatedClassWithFields4Copier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/AnnotatedClassWithVariablesAndCollection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/AnnotatedClassWithVariablesAndCollectionCopier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/SimpleClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/SimpleClassCopier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/SimpleClassX.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/SimpleClassXCopier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/Test$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/Test$TestCollection$SomeObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/Test$TestCollection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/classes/com/progressoft/annotation/processor/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/copier-test-client-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/generated-sources/annotations/com/progressoft/annotation/processor/AnnotatedClassWithFields4Copier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/generated-sources/annotations/com/progressoft/annotation/processor/AnnotatedClassWithVariablesAndCollectionCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/generated-sources/annotations/com/progressoft/annotation/processor/SimpleClassCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/generated-sources/annotations/com/progressoft/annotation/processor/SimpleClassXCopier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/surefire-reports/TEST-com.progressoft.annotation.processor.AppTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/surefire-reports/com.progressoft.annotation.processor.AppTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/target/test-classes/com/progressoft/annotation/processor/AppTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" />
     </list>
     <ignored path="processor-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -246,20 +161,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="processor-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="processor-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="processor-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477054218224</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactoring">
+      <created>1477055126613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1477055126613</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -600,10 +508,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
