@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac3cf138-9073-4dd4-bcee-109e1dbb5b9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../processor-utils/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/BuilderProcessorTest.class" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/BuilderProcessorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/CopierAnnotationProcessor.class" afterPath="$PROJECT_DIR$/copier-annotation-processor/target/classes/com/progressoft/annotation/processor/CopierAnnotationProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/ProcessorElement.class" afterPath="$PROJECT_DIR$/../processor-utils/target/classes/com/progressoft/annotations/processing/ProcessorElement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/target/processor-utils-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../processor-utils/target/processor-utils-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/builder-annotation-processor.iml" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/builder-annotation-processor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/java/com/progressoft/annotation/processor/builder/BuilderProcessorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithManyFields.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/AnnotatedClassWithManyFields.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/AnnotatedClassWithManyFields.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/AnnotatedClassWithManyFields.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/copier-annotation-processor.iml" afterPath="$PROJECT_DIR$/copier-annotation-processor/copier-annotation-processor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/target/test-classes/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/processor-test.iml" afterPath="$PROJECT_DIR$/../processor-test/processor-test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../processor-utils/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="Copier.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -921,7 +908,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476824778744</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactoring">
+      <created>1477054100650</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1477054100650</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -958,7 +952,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
