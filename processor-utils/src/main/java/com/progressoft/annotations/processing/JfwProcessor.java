@@ -5,7 +5,9 @@ import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
+import javax.tools.FileObject;
 import javax.tools.JavaFileObject;
+import javax.tools.StandardLocation;
 import java.io.IOException;
 import java.io.Writer;
 
@@ -33,16 +35,20 @@ public abstract class JfwProcessor extends AbstractProcessor {
         return filer.createSourceFile(targetPackage + "." + className);
     }
 
+    protected Writer obtainResourceWriter(String targetPackage,String className) throws IOException {
+        return createResourceFile(targetPackage, className).openWriter();
+    }
+
+    protected FileObject createResourceFile(String targetPackage, String className) throws IOException {
+        return filer.createResource(StandardLocation.SOURCE_OUTPUT, targetPackage, className);
+    }
+
     protected void validateElementKind(Element element, ElementKind kind) {
         if (element.getKind() != kind)
             throw new ProcessingException(element, "Only "+kind+" can be annotated with @%s");
     }
 
-    protected String imports(ProcessorElement processorElement) {
-        ImportsWriter importsWriter = new ImportsWriter();
-        processorElement.fieldsStream().filter(element -> element.asType().toString().contains(".")).forEach(element -> importsWriter.addAll(new ProcessorElement(element).asImports().allImports()));
-        return importsWriter.asImportsString();
-    }
+
 
 }
 

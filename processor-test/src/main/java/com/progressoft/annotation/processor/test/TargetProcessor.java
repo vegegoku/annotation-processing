@@ -1,9 +1,15 @@
 package com.progressoft.annotation.processor.test;
 
 import com.google.common.truth.Truth;
+import com.google.testing.compile.CompileTester;
 import com.google.testing.compile.JavaFileObjects;
 
 import javax.annotation.processing.Processor;
+import javax.tools.FileObject;
+import javax.tools.JavaFileObject;
+import javax.tools.StandardLocation;
+
+import java.nio.charset.Charset;
 
 import static com.google.testing.compile.JavaSourceSubjectFactory.javaSource;
 
@@ -17,10 +23,19 @@ public class TargetProcessor {
     }
 
     public void generates(String result){
-        Truth.assert_().about(javaSource()).that(JavaFileObjects.forResource(inputClassName))
-                .processedWith(processor).compilesWithoutError()
+        compilesWithoutErrors()
                 .and()
                 .generatesSources(JavaFileObjects.forSourceString("",result));
     }
 
+    public CompileTester.SuccessfulCompilationClause compilesWithoutErrors(){
+        return Truth.assert_().about(javaSource()).that(JavaFileObjects.forResource(inputClassName))
+                .processedWith(processor).compilesWithoutError();
+    }
+
+    public void generatesResource(String basePackage, String fileName, String content){
+        compilesWithoutErrors()
+                .and()
+                .generatesFileNamed(StandardLocation.SOURCE_OUTPUT, basePackage, fileName).withStringContents(Charset.defaultCharset(), content);
+    }
 }
