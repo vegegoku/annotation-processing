@@ -5,8 +5,6 @@ import com.google.testing.compile.CompileTester;
 import com.google.testing.compile.JavaFileObjects;
 
 import javax.annotation.processing.Processor;
-import javax.tools.FileObject;
-import javax.tools.JavaFileObject;
 import javax.tools.StandardLocation;
 
 import java.nio.charset.Charset;
