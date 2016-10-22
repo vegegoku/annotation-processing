@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ui-templates.iml" filepath="$PROJECT_DIR$/ui-templates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui-templates-annotation-processor/ui-templates-annotation-processor.iml" filepath="$PROJECT_DIR$/ui-templates-annotation-processor/ui-templates-annotation-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui-templates-annotations/ui-templates-annotations.iml" filepath="$PROJECT_DIR$/ui-templates-annotations/ui-templates-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui-templates-client/ui-templates-client.iml" filepath="$PROJECT_DIR$/ui-templates-client/ui-templates-client.iml" />
+    </modules>
+  </component>
+</project>
