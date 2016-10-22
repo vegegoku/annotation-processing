@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac3cf138-9073-4dd4-bcee-109e1dbb5b9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Builder/.idea/libraries/Maven__com_google_auto_auto_common_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_auto_common_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../processor-test/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../processor-utils/.idea/libraries/Maven__com_google_auto_auto_common_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../processor-utils/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_rc2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../processor-utils/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/JavaSourceWriter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Builder/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_rc1.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_rc2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Builder/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Builder/.idea/libraries/Maven__com_google_testing_compile_compile_testing_0_8.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/libraries/Maven__com_google_testing_compile_compile_testing_0_9.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Builder/.idea/libraries/Maven__com_google_truth_truth_0_25.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/libraries/Maven__com_google_truth_truth_0_28.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_rc1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_rc2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_testing_compile_compile_testing_0_8.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/libraries/Maven__com_google_testing_compile_compile_testing_0_9.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_truth_truth_0_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_truth_truth_0_28.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../processor-test/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../processor-test/.idea/libraries/Maven__com_google_testing_compile_compile_testing_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_testing_compile_compile_testing_0_9.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../processor-test/.idea/libraries/Maven__com_google_truth_truth_0_25.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/libraries/Maven__com_google_truth_truth_0_28.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/Builder.iml" afterPath="$PROJECT_DIR$/../Builder/Builder.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/builder-annotation-processor.iml" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/builder-annotation-processor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/pom.xml" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-client/builder-client.iml" afterPath="$PROJECT_DIR$/../Builder/builder-client/builder-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/pom.xml" afterPath="$PROJECT_DIR$/../Builder/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/copier-annotation-processor.iml" afterPath="$PROJECT_DIR$/copier-annotation-processor/copier-annotation-processor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/pom.xml" afterPath="$PROJECT_DIR$/copier-annotation-processor/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java" afterPath="$PROJECT_DIR$/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copier-test-client/copier-test-client.iml" afterPath="$PROJECT_DIR$/copier-test-client/copier-test-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/pom.xml" afterPath="$PROJECT_DIR$/../processor-test/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/processor-test.iml" afterPath="$PROJECT_DIR$/../processor-test/processor-test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/src/main/java/com/progressoft/annotation/processor/test/TargetProcessor.java" afterPath="$PROJECT_DIR$/../processor-test/src/main/java/com/progressoft/annotation/processor/test/TargetProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/pom.xml" afterPath="$PROJECT_DIR$/../processor-utils/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/processor-utils.iml" afterPath="$PROJECT_DIR$/../processor-utils/processor-utils.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/JfwProcessor.java" afterPath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/JfwProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ui-templates/.idea/vcs.xml" />
     </list>
     <ignored path="Copier.iws" />
     <ignored path=".idea/workspace.xml" />
