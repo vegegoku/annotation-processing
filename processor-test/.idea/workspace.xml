@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edea5e53-5986-4093-b2f4-88fd0579ecf3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
     </list>
     <ignored path="processor-test.iws" />
     <ignored path=".idea/workspace.xml" />
