@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cda9210-c33f-40f5-835c-19e7c29a7a89" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ui-templates/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ui-templates/.idea/workspace.xml" />
     </list>
     <ignored path="Builder.iws" />
     <ignored path=".idea/workspace.xml" />
