@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04c61a57-6164-4962-a458-c7e0bc8d2247" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Copier/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Copier/client/client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Copier/client/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Copier/copier-test-client/src/test/java/com/progressoft/annotation/processor/CustomerProfile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/src/main/java/com/progressoft/annotation/processor/AnnotatedClassWithFields4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/src/main/java/com/progressoft/annotation/processor/AnnotatedClassWithVariablesAndCollection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/src/main/java/com/progressoft/annotation/processor/SimpleClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/src/main/java/com/progressoft/annotation/processor/SimpleClassX.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/src/main/java/com/progressoft/annotation/processor/Test.java" afterPath="" />
+    <list default="true" id="04c61a57-6164-4962-a458-c7e0bc8d2247" name="Default" comment="refactoring">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/copier-test-client/copier-test-client.iml" afterPath="$PROJECT_DIR$/../Copier/copier-test-client/copier-test-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/pom.xml" afterPath="$PROJECT_DIR$/../Copier/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/progressoft/annotations/processing/ProcessorElement.java" afterPath="$PROJECT_DIR$/src/main/java/com/progressoft/annotations/processing/ProcessorElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ui-templates/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ui-templates/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ui-templates/ui-templates-annotation-processor/src/test/java/com/progressoft/annotation/processor/UiFormsTest.java" afterPath="$PROJECT_DIR$/../ui-templates/ui-templates-annotation-processor/src/test/java/com/progressoft/annotation/processor/UiFormsTest.java" />
     </list>
     <ignored path="processor-utils.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +50,8 @@
       <file leaf-file-name="ImportsWriter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/annotations/processing/ImportsWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="399">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -145,6 +124,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Ahmad" />
         <option value="Ahmad Bawaneh &lt;akabme@gmail.com&gt;" />
       </list>
     </option>
@@ -710,7 +690,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477135092460</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactoring">
+      <created>1477211994934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1477211994934</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -748,7 +735,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1080,8 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/annotations/processing/ImportsWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="399">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding />
         </state>
       </provider>
