@@ -33,7 +33,7 @@ public class BuilderWriter extends JavaSourceWriter{
     }
 
     private String builderClassDefenition() {
-        return "class " + processorElement.simpleName() + "Builder {\n\n";
+        return "public class " + processorElement.simpleName() + "Builder {\n\n";
     }
 
     private String builderFields() {
@@ -52,7 +52,7 @@ public class BuilderWriter extends JavaSourceWriter{
 
     private String builderConstructor() {
         StringBuilder sb=new StringBuilder();
-        sb.append("    ").append(processorElement.simpleName()).append(BUILDER).append("(")
+        sb.append("    public ").append(processorElement.simpleName()).append(BUILDER).append("(")
                 .append(constructorFields())
                 .append("){\n").append(constructorFieldsInitialization()).append("    }\n\n");
 
@@ -72,7 +72,7 @@ public class BuilderWriter extends JavaSourceWriter{
     }
 
     private String buildMethodSignature() {
-        return "    " + processorElement.simpleName() + " build(){\n";
+        return "    public " + processorElement.simpleName() + " build(){\n";
     }
 
     private String buildMethodBody() {
@@ -97,7 +97,7 @@ public class BuilderWriter extends JavaSourceWriter{
 
     private String builderFieldsSetters() {
         StringBuilder sb = new StringBuilder();
-        processorElement.fieldsStream().filter(element -> notRequired(element)).forEach(element -> sb.append("\n    ")
+        processorElement.fieldsStream().filter(element -> notRequired(element)).forEach(element -> sb.append("\n    public ")
                 .append(processorElement.asSimpleType()).append(BUILDER).append(" ")
                 .append(element.getSimpleName()).append("(")
                 .append(new ProcessorElement(element).asSimpleType())

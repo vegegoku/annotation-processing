@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f37c71be-4457-4a5d-9a61-136e0bad50b3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderWriter.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/test/resources/com/progressoft/annotation/processor/builder/results/EmptyAnnotatedClassBuilder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/ProcessorElement.java" afterPath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/ProcessorElement.java" />
     </list>
     <ignored path="ui-templates.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -650,7 +654,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

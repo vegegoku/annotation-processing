@@ -2,7 +2,7 @@ package com.progressoft.annotation.processor.builder;
 
 import java.util.List;
 
-class AnnotatedClassWithManyFieldsBuilder {
+public class AnnotatedClassWithManyFieldsBuilder {
 
     private Integer integerValue;
     private int intValue;
@@ -13,50 +13,50 @@ class AnnotatedClassWithManyFieldsBuilder {
     private double dValue;
     private List<String> stringsList;
 
-    AnnotatedClassWithManyFieldsBuilder(){
+    public AnnotatedClassWithManyFieldsBuilder(){
 
     }
 
-    AnnotatedClassWithManyFields build() {
+    public AnnotatedClassWithManyFields build() {
         return new AnnotatedClassWithManyFields(integerValue, intValue, stringValue, booleanValue, boolValue, doubleValue, dValue, stringsList);
     }
 
-    AnnotatedClassWithManyFieldsBuilder integerValue(Integer integerValue) {
+    public AnnotatedClassWithManyFieldsBuilder integerValue(Integer integerValue) {
         this.integerValue = integerValue;
         return this;
     }
 
-    AnnotatedClassWithManyFieldsBuilder intValue(int intValue) {
+    public AnnotatedClassWithManyFieldsBuilder intValue(int intValue) {
         this.intValue = intValue;
         return this;
     }
 
-    AnnotatedClassWithManyFieldsBuilder stringValue(String stringValue) {
+    public AnnotatedClassWithManyFieldsBuilder stringValue(String stringValue) {
         this.stringValue = stringValue;
         return this;
     }
 
-    AnnotatedClassWithManyFieldsBuilder booleanValue(Boolean booleanValue) {
+    public AnnotatedClassWithManyFieldsBuilder booleanValue(Boolean booleanValue) {
         this.booleanValue = booleanValue;
         return this;
     }
 
-    AnnotatedClassWithManyFieldsBuilder boolValue(boolean boolValue) {
+    public AnnotatedClassWithManyFieldsBuilder boolValue(boolean boolValue) {
         this.boolValue = boolValue;
         return this;
     }
 
-    AnnotatedClassWithManyFieldsBuilder doubleValue(Double doubleValue) {
+    public AnnotatedClassWithManyFieldsBuilder doubleValue(Double doubleValue) {
         this.doubleValue = doubleValue;
         return this;
     }
 
-    AnnotatedClassWithManyFieldsBuilder dValue(double dValue) {
+    public AnnotatedClassWithManyFieldsBuilder dValue(double dValue) {
         this.dValue = dValue;
         return this;
     }
 
-    AnnotatedClassWithManyFieldsBuilder stringsList(List<String> stringsList) {
+    public AnnotatedClassWithManyFieldsBuilder stringsList(List<String> stringsList) {
         this.stringsList = stringsList;
         return this;
     }

@@ -1,12 +1,12 @@
 package com.progressoft.annotation.processor.builder;
 
-class EmptyAnnotatedClassBuilder {
+public class EmptyAnnotatedClassBuilder {
 
-    EmptyAnnotatedClassBuilder(){
+    public EmptyAnnotatedClassBuilder(){
 
     }
 
-    EmptyAnnotatedClass build(){
+    public EmptyAnnotatedClass build(){
         return new EmptyAnnotatedClass();
     }
 }

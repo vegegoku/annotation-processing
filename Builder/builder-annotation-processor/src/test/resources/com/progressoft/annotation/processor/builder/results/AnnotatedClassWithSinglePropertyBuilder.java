@@ -1,19 +1,19 @@
 package com.progressoft.annotation.processor.builder;
 
 
-class AnnotatedClassWithSinglePropertyBuilder {
+public class AnnotatedClassWithSinglePropertyBuilder {
 
     private Integer integerValue;
 
-    AnnotatedClassWithSinglePropertyBuilder(){
+    public AnnotatedClassWithSinglePropertyBuilder(){
 
     }
 
-    AnnotatedClassWithSingleProperty build(){
+    public AnnotatedClassWithSingleProperty build(){
         return new AnnotatedClassWithSingleProperty(integerValue);
     }
 
-    AnnotatedClassWithSinglePropertyBuilder integerValue(Integer integerValue){
+    public AnnotatedClassWithSinglePropertyBuilder integerValue(Integer integerValue){
         this.integerValue=integerValue;
         return this;
     }
