@@ -10,6 +10,8 @@ import javax.tools.JavaFileObject;
 import javax.tools.StandardLocation;
 import java.io.IOException;
 import java.io.Writer;
+import java.lang.annotation.Annotation;
+import java.util.stream.Stream;
 
 public abstract class JfwProcessor extends AbstractProcessor {
 
@@ -43,12 +45,10 @@ public abstract class JfwProcessor extends AbstractProcessor {
         return filer.createResource(StandardLocation.SOURCE_OUTPUT, targetPackage, className);
     }
 
-    protected void validateElementKind(Element element, ElementKind kind) {
+    protected boolean validateElementKind(Element element, ElementKind kind) {
         if (element.getKind() != kind)
             throw new ProcessingException(element, "Only "+kind+" can be annotated with @%s");
+        return true;
     }
-
-
-
 }
 

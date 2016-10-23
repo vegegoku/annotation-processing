@@ -8,7 +8,6 @@ import com.progressoft.annotations.processing.ProcessorElement;
 
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
-import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
@@ -23,11 +22,9 @@ public class CopierAnnotationProcessor extends JfwProcessor {
 
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
-
-        for (Element element : roundEnv.getElementsAnnotatedWith(WithCopier.class)) {
-            validateElementKind(element, ElementKind.CLASS);
-            generateCopier(new ProcessorElement(element));
-        }
+        roundEnv.getElementsAnnotatedWith(WithCopier.class).stream()
+                .filter(e -> validateElementKind(e, ElementKind.CLASS))
+                .forEach(e -> generateCopier(new ProcessorElement(e)));
         return true;
     }
 
