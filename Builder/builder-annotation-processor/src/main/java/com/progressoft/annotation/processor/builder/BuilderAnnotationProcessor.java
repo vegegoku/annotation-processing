@@ -6,7 +6,6 @@ import com.progressoft.annotations.processing.ProcessorElement;
 
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
-import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
@@ -21,10 +20,9 @@ public class BuilderAnnotationProcessor extends JfwProcessor {
 
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
-        for (Element element : roundEnv.getElementsAnnotatedWith(WithBuilder.class)) {
-            validateElementKind(element, ElementKind.CLASS);
-            generateBuilder(new ProcessorElement(element));
-        }
+        roundEnv.getElementsAnnotatedWith(WithBuilder.class).stream()
+                .filter(e -> validateElementKind(e, ElementKind.CLASS))
+                .forEach(e -> generateBuilder(new ProcessorElement(e)));
         return true;
     }
 

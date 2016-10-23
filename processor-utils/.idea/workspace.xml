@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04c61a57-6164-4962-a458-c7e0bc8d2247" name="Default" comment="refactoring">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Copier/.idea/codeStyleSettings.xml" />
+    <list default="true" id="04c61a57-6164-4962-a458-c7e0bc8d2247" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java" afterPath="$PROJECT_DIR$/../Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/progressoft/annotations/processing/JfwProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/progressoft/annotations/processing/JfwProcessor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ui-templates/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ui-templates/.idea/workspace.xml" />
     </list>
     <ignored path="processor-utils.iws" />
@@ -67,8 +64,8 @@
       <file leaf-file-name="JfwProcessor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/annotations/processing/JfwProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="47" column="75" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="75" />
+            <state relative-caret-position="194">
+              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,8 +134,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Ahmad" />
         <option value="Ahmad Bawaneh &lt;akabme@gmail.com&gt;" />
+        <option value="Ahmad" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -710,7 +707,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477211994934</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactoring">
+      <created>1477216016890</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1477216016890</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -748,7 +752,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1104,8 +1108,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/annotations/processing/JfwProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="47" column="75" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="75" />
+        <state relative-caret-position="194">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

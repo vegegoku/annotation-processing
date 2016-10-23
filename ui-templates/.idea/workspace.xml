@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f37c71be-4457-4a5d-9a61-136e0bad50b3" name="Default" comment="" />
+    <list default="true" id="f37c71be-4457-4a5d-9a61-136e0bad50b3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Builder/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" afterPath="$PROJECT_DIR$/../Builder/builder-annotation-processor/src/main/java/com/progressoft/annotation/processor/builder/BuilderAnnotationProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" />
+    </list>
     <ignored path="ui-templates.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
