@@ -30,6 +30,10 @@ public class ProcessorElement {
         return asTypeElement().getSimpleName().toString();
     }
 
+    public <A extends Annotation> A getAnnotation(Class<A> annotation){
+        return element.getAnnotation(annotation);
+    }
+
     public Stream<? extends Element> fieldsStream(){
         return element.getEnclosedElements().stream().filter(element -> element.getKind()== ElementKind.FIELD);
     }
