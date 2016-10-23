@@ -28,6 +28,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="client" target="1.8" />
       <module name="Copier" target="1.8" />
       <module name="copier-annotation-processor" target="1.8" />
       <module name="copier-annotations" target="1.8" />

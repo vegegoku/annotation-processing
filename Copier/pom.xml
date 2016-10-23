@@ -9,6 +9,7 @@
     <module>copier-annotations</module>
     <module>copier-annotation-processor</module>
       <module>copier-test-client</module>
+    <module>client</module>
   </modules>
   <packaging>pom</packaging>
 

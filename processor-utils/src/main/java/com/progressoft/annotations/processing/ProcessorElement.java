@@ -6,7 +6,6 @@ import javax.lang.model.element.TypeElement;
 import java.lang.annotation.Annotation;
 import java.util.Objects;
 import java.util.StringTokenizer;
-import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 public class ProcessorElement {

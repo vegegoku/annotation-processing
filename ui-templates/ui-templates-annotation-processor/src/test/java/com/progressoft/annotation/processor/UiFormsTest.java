@@ -1,17 +1,12 @@
 package com.progressoft.annotation.processor;
 
-import com.google.common.truth.Truth;
-import com.google.testing.compile.JavaFileObjects;
 import org.apache.commons.io.IOUtils;
 import org.junit.Before;
 import org.junit.Test;
 
-import javax.tools.StandardLocation;
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.charset.Charset;
 
-import static com.google.testing.compile.JavaSourceSubjectFactory.javaSource;
 import static com.progressoft.annotation.processor.test.ProcessorAssert.*;
 
 public class UiFormsTest {
@@ -41,5 +36,4 @@ public class UiFormsTest {
             return IOUtils.toString(resourceInputStream, "UTF-8");
         }
     }
-
 }
