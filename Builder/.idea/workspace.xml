@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cda9210-c33f-40f5-835c-19e7c29a7a89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Copier/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Copier/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java" afterPath="$PROJECT_DIR$/../Copier/copier-annotation-processor/src/main/java/com/progressoft/annotation/processor/CopierAnnotationProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../processor-utils/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/JfwProcessor.java" afterPath="$PROJECT_DIR$/../processor-utils/src/main/java/com/progressoft/annotations/processing/JfwProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ui-templates/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ui-templates/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="8cda9210-c33f-40f5-835c-19e7c29a7a89" name="Default" comment="" />
     <ignored path="Builder.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
