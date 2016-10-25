@@ -26,12 +26,12 @@ public class BuilderAnnotationProcessor extends JfwProcessor {
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
         roundEnv.getElementsAnnotatedWith(WithBuilder.class).stream()
                 .filter(e -> validateElementKind(e, ElementKind.CLASS))
-                .forEach(e -> generateBuilder(new ProcessorElement(e)));
+                .forEach(e -> generateBuilder(newProcessorElement(e)));
         return true;
     }
 
     private void generateBuilder(ProcessorElement processorElement) {
-        try (Writer sourceWriter = obtainSourceWriter(processorElement.elementPackage(), processorElement.simpleName()+ BuilderWriter.BUILDER)) {
+        try (Writer sourceWriter = obtainSourceWriter(processorElement.elementPackage(), processorElement.typeElementSimpleName()+ BuilderWriter.BUILDER)) {
             sourceWriter.write(new BuilderWriter(processorElement).write());
         } catch (IOException e) {
             messager.printMessage(Diagnostic.Kind.ERROR, "could not generate class");

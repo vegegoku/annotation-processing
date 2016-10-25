@@ -41,15 +41,15 @@ public class CopierWriter extends JavaSourceWriter {
     }
 
     private boolean notStatic(Element e) {
-        return Boolean.FALSE.equals(new ProcessorElement(e).hasModifier(Modifier.STATIC));
+        return Boolean.FALSE.equals(processorElement.make(e).hasModifier(Modifier.STATIC));
     }
 
     private String writeClassName() {
-        return "class " + processorElement.simpleName() + FieldsCopyStatementGenerator.COPIER_POSTFIX + " {\n\n";
+        return "class " + processorElement.typeElementSimpleName() + FieldsCopyStatementGenerator.COPIER_POSTFIX + " {\n\n";
     }
 
     private String writeCopyMethodSignature() {
-        return "    " + processorElement.simpleName() + " copy(" + processorElement.simpleName() + " " + FieldsCopyStatementGenerator.ORIGINAL + ")";
+        return "    " + processorElement.asSimpleType() + " copy(" + processorElement.asSimpleType() + " " + FieldsCopyStatementGenerator.ORIGINAL + ")";
     }
 
     private String writeThrowsDeclaration() {
@@ -57,7 +57,7 @@ public class CopierWriter extends JavaSourceWriter {
     }
 
     private String writeInstanceCreationStatement() {
-        return "        " + processorElement.simpleName() + " " + FieldsCopyStatementGenerator.RESULT + "=new " + processorElement.simpleName() + "();\n\n";
+        return "        " + processorElement.asSimpleType() + " " + FieldsCopyStatementGenerator.RESULT + "=new " + processorElement.asSimpleType() + "();\n\n";
     }
 
     private String writeCopyFieldsStatements() {
@@ -69,7 +69,7 @@ public class CopierWriter extends JavaSourceWriter {
     private void generatedCopStatements(TypeElement annotatedClassElement, StringBuilder sb) {
         copierFieldsStream().filter(element -> notIgnored(element))
                 .forEach(element -> sb.append(FieldCopyStatementFactory.getGenerator(annotatedClassElement, element)
-                        .generate(element)));
+                        .generate(processorElement.make(element))));
     }
 
     private boolean notIgnored(Element element) {

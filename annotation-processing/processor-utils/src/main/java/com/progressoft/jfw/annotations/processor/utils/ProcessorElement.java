@@ -4,6 +4,8 @@ import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.Modifier;
 import javax.lang.model.element.TypeElement;
+import javax.lang.model.util.Elements;
+import javax.lang.model.util.Types;
 import java.lang.annotation.Annotation;
 import java.util.Objects;
 import java.util.Set;
@@ -14,23 +16,39 @@ import java.util.stream.Stream;
 public class ProcessorElement {
 
     private final Element element;
+    private Elements elementUtils;
+    private Types typeUtils;
 
     private ImportsWriter importsWriter=new ImportsWriter();
 
-    public ProcessorElement(Element element) {
+    public ProcessorElement(Element element, Elements elementUtils, Types typeUtils) {
         this.element = element;
+        this.elementUtils=elementUtils;
+        this.typeUtils=typeUtils;
+    }
+
+    public ProcessorElement make(Element element){
+        return new ProcessorElement(element, elementUtils, typeUtils);
     }
 
     public String elementPackage() {
-        return asTypeElement().getQualifiedName().toString().replace("." + simpleName(), "");
+        return elementUtils.getPackageOf(element).getQualifiedName().toString();
     }
 
     public TypeElement asTypeElement() {
         return (TypeElement) element;
     }
 
-    public String simpleName() {
+    public String asTypeString(){
+        return element.asType().toString();
+    }
+
+    public String typeElementSimpleName() {
         return asTypeElement().getSimpleName().toString();
+    }
+
+    public String simpleName() {
+        return element.getSimpleName().toString();
     }
 
     public <A extends Annotation> A getAnnotation(Class<A> annotation){
@@ -77,6 +95,16 @@ public class ProcessorElement {
     }
 
     public String asSimpleType() {
+       if(isInnerClass())
+           return element.getEnclosingElement().getSimpleName()+"."+getSimpleType();
+       return getSimpleType();
+    }
+
+    private boolean isInnerClass() {
+        return element.getKind()==ElementKind.CLASS && element.getEnclosingElement().getKind()== ElementKind.CLASS;
+    }
+
+    private String getSimpleType(){
         StringTokenizer st = new StringTokenizer(element.asType().toString(), "<>,");
         if (st.hasMoreTokens())
             return removePackageFromName(st, element.asType().toString());

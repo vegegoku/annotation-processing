@@ -8,17 +8,17 @@ import javax.lang.model.element.Element;
 
 public interface FieldsCopyStatementGenerator {
 
-    final String COPIER_POSTFIX = "Copier";
-    final String ORIGINAL = "original";
-    final String RESULT = "result";
+    String COPIER_POSTFIX = "Copier";
+    String ORIGINAL = "original";
+    String RESULT = "result";
 
-    String generate(Element element);
-    default String getCapitalizedFieldName(Element element){
-        return WordUtils.capitalize(element.getSimpleName().toString());
+    String generate(ProcessorElement processorElement);
+    default String getCapitalizedFieldName(ProcessorElement processorElement){
+        return WordUtils.capitalize(processorElement.simpleName());
     }
 
-    default String getGenericType(Element element){
-        String simpleType=new ProcessorElement(element).asSimpleType();
+    default String getGenericType(ProcessorElement processorElement){
+        String simpleType=processorElement.asSimpleType();
         return simpleType.substring(simpleType.indexOf("<")+1, simpleType.lastIndexOf(">"));
     }
 }

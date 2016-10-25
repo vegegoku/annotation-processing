@@ -2,6 +2,7 @@ package com.progressoft.jfw.annotations.processor.copier.generators.accessor;
 
 import com.progressoft.jfw.annotations.copier.DeepCopy;
 import com.progressoft.jfw.annotations.processor.copier.generators.FieldsCopyStatementGenerator;
+import com.progressoft.jfw.annotations.processor.utils.ProcessorElement;
 
 import javax.lang.model.element.Element;
 import java.util.Objects;
@@ -9,7 +10,7 @@ import java.util.Objects;
 public class HashMapAccessorCopier implements FieldsCopyStatementGenerator {
 
     @Override
-    public String generate(Element element) {
+    public String generate(ProcessorElement element) {
         StringBuilder sb = new StringBuilder();
         sb.append("\n        if(java.util.Objects.nonNull(original.get" + getCapitalizedFieldName(element) + "())){\n");
         sb.append("                result.set" + getCapitalizedFieldName(element) + "(new java.util.HashMap<>());\n");

@@ -5,24 +5,38 @@ import com.google.testing.compile.CompileTester;
 import com.google.testing.compile.JavaFileObjects;
 
 import javax.annotation.processing.Processor;
+import javax.tools.JavaFileObject;
 import javax.tools.StandardLocation;
 import java.nio.charset.Charset;
 
 import static com.google.testing.compile.JavaSourceSubjectFactory.javaSource;
 
-public class TargetProcessor {
+public class TargetProcessor{
+
     private final String inputClassName;
     private final Processor processor;
+    private CompileTester.SuccessfulCompilationClause successfulCompilationClause;
 
     public TargetProcessor(String inputClassName, Processor processor) {
         this.inputClassName = inputClassName;
         this.processor = processor;
     }
 
-    public void generates(String result){
-        compilesWithoutErrors()
-                .and()
-                .generatesSources(JavaFileObjects.forSourceString("",result));
+    public void generates(String result, String... rest){
+        if(rest !=null && rest.length>0){
+            JavaFileObject[] files=new JavaFileObject[rest.length];
+            for(int i=0;i<rest.length;i++){
+                files[i]=JavaFileObjects.forSourceString("",rest[i]);
+            }
+            compilesWithoutErrors()
+                    .and()
+                    .generatesSources(JavaFileObjects.forSourceString("",result), files);
+        }else{
+            compilesWithoutErrors()
+                    .and()
+                    .generatesSources(JavaFileObjects.forSourceString("",result));
+        }
+
     }
 
     public CompileTester.SuccessfulCompilationClause compilesWithoutErrors(){

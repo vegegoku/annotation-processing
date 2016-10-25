@@ -51,5 +51,9 @@ public abstract class JfwProcessor extends AbstractProcessor {
             throw new ProcessingException(element, "Only "+kind+" can be annotated with @%s");
         return true;
     }
+
+    protected ProcessorElement newProcessorElement(Element element){
+        return new ProcessorElement(element, elementUtils, typeUtils);
+    }
 }
 

@@ -114,6 +114,13 @@ public class CopierAnnotationProcessorTest {
                 .generates(getExpectedResultFileContent("AnnotatedClassWithStaticFieldsCopier.java"));
     }
 
+    @Test
+    public void givenAClassAnnotatedAsWithCopierAndHasInnerClassAnnotatedAsCopier_shouldGenerateCopiersForBothClasses() throws Exception {
+        assertProcessing(BASE_PACKAGE + "AnnotatedClassWithInnerClass.java")
+                .withProcessor(newProcessor())
+                .generates(getExpectedResultFileContent("AnnotatedClassWithInnerClassCopier.java"), getExpectedResultFileContent("InnerClassCopier.java"));
+    }
+
     private CopierAnnotationProcessor newProcessor(){
         return new CopierAnnotationProcessor();
     }

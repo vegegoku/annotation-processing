@@ -37,12 +37,12 @@ public class BuilderWriter extends JavaSourceWriter {
     }
 
     private String builderClassDefinition() {
-        return "public class " + processorElement.simpleName() + "Builder {\n\n";
+        return "public class " + processorElement.typeElementSimpleName() + "Builder {\n\n";
     }
 
     private String builderFields() {
         StringBuilder sb = new StringBuilder();
-        builderFieldsStream().forEach(e -> sb.append("    private ").append(isRequired(e)?"final ":"").append(new ProcessorElement(e).asSimpleType()).append(" ").append(e.getSimpleName()).append(";\n"));
+        builderFieldsStream().forEach(e -> sb.append("    private ").append(isRequired(e)?"final ":"").append(processorElement.make(e).asSimpleType()).append(" ").append(e.getSimpleName()).append(";\n"));
         return sb.append("\n").toString();
     }
 
@@ -51,7 +51,7 @@ public class BuilderWriter extends JavaSourceWriter {
     }
 
     private boolean notStatic(Element e) {
-        return Boolean.FALSE.equals(new ProcessorElement(e).hasModifier(Modifier.STATIC));
+        return Boolean.FALSE.equals(processorElement.make(e).hasModifier(Modifier.STATIC));
     }
 
     private boolean isRequired(Element element){
@@ -64,7 +64,7 @@ public class BuilderWriter extends JavaSourceWriter {
 
     private String builderConstructor() {
         StringBuilder sb=new StringBuilder();
-        sb.append("    public ").append(processorElement.simpleName()).append(BUILDER).append("(")
+        sb.append("    public ").append(processorElement.typeElementSimpleName()).append(BUILDER).append("(")
                 .append(constructorFields())
                 .append("){\n").append(constructorFieldsInitialization()).append("    }\n\n");
 
@@ -73,7 +73,7 @@ public class BuilderWriter extends JavaSourceWriter {
 
     private String constructorFields() {
         StringBuilder sb=new StringBuilder();
-        processorElement.fieldsAnnotatedWithStream(BuilderRequired.class).forEach(element -> sb.append(new ProcessorElement(element).asSimpleType()).append(" ").append(element.getSimpleName()).append(", "));
+        processorElement.fieldsAnnotatedWithStream(BuilderRequired.class).forEach(element -> sb.append(processorElement.make(element).asSimpleType()).append(" ").append(element.getSimpleName()).append(", "));
         return sb.toString().endsWith(", ")?sb.toString().substring(0,sb.toString().length()-2):sb.toString();
     }
 
@@ -84,11 +84,11 @@ public class BuilderWriter extends JavaSourceWriter {
     }
 
     private String buildMethodSignature() {
-        return "    public " + processorElement.simpleName() + " build(){\n";
+        return "    public " + processorElement.asSimpleType() + " build(){\n";
     }
 
     private String buildMethodBody() {
-        return "        return new " + processorElement.simpleName() + "("+fieldsParameters()+");\n";
+        return "        return new " + processorElement.asSimpleType() + "("+fieldsParameters()+");\n";
     }
 
     private String fieldsParameters() {
@@ -112,7 +112,7 @@ public class BuilderWriter extends JavaSourceWriter {
         builderFieldsStream().filter(element -> notRequired(element)).forEach(element -> sb.append("\n    public ")
                 .append(processorElement.asSimpleType()).append(BUILDER).append(" ")
                 .append(element.getSimpleName()).append("(")
-                .append(new ProcessorElement(element).asSimpleType())
+                .append(processorElement.make(element).asSimpleType())
                 .append(" ").append(element.getSimpleName()).append("){\n")
                 .append("        ").append("this.").append(element.getSimpleName())
                 .append(" = ").append(element.getSimpleName()).append(";\n")

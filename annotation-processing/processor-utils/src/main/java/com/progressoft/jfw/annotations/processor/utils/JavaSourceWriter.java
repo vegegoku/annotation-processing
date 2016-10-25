@@ -17,7 +17,7 @@ public abstract class JavaSourceWriter {
 
     protected String allFieldsImports(Stream<? extends Element> elements) {
         ImportsWriter importsWriter = new ImportsWriter();
-        elements.filter(element -> element.asType().toString().contains(".")).forEach(element -> importsWriter.addAll(new ProcessorElement(element).asImports().allImports()));
+        elements.filter(element -> element.asType().toString().contains(".")).forEach(element -> importsWriter.addAll(processorElement.make(element).asImports().allImports()));
         return importsWriter.asImportsString();
     }
 

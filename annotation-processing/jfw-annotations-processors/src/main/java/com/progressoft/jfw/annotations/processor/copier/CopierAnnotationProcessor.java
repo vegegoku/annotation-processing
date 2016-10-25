@@ -24,12 +24,12 @@ public class CopierAnnotationProcessor extends JfwProcessor {
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
         roundEnv.getElementsAnnotatedWith(WithCopier.class).stream()
                 .filter(e -> validateElementKind(e, ElementKind.CLASS))
-                .forEach(e -> generateCopier(new ProcessorElement(e)));
+                .forEach(e -> generateCopier(newProcessorElement(e)));
         return true;
     }
 
     private void generateCopier(ProcessorElement processorElement) {
-        try (Writer sourceWriter = obtainSourceWriter(processorElement.elementPackage(), processorElement.simpleName() + FieldsCopyStatementGenerator.COPIER_POSTFIX)) {
+        try (Writer sourceWriter = obtainSourceWriter(processorElement.elementPackage(), processorElement.typeElementSimpleName() + FieldsCopyStatementGenerator.COPIER_POSTFIX)) {
             sourceWriter.write(new CopierWriter(processorElement).write());
         } catch (IOException e) {
             messager.printMessage(Diagnostic.Kind.ERROR, "could not generate class");
