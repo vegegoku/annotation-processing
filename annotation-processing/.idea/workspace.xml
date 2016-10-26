@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a8342fc-18d6-4eae-b639-3f8d89dba97a" name="Default" comment="">
+    <list default="true" id="2a8342fc-18d6-4eae-b639-3f8d89dba97a" name="Default" comment="Handling inner classes">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor-testing/src/main/java/com/progressoft/jfw/annotations/processor/test/TargetProcessor.java" afterPath="$PROJECT_DIR$/processor-testing/src/main/java/com/progressoft/jfw/annotations/processor/test/TargetProcessor.java" />
     </list>
     <ignored path="annotation-processing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +50,8 @@
       <file leaf-file-name="ProcessorElement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/ProcessorElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="45" column="39" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="39" />
+            <state relative-caret-position="209">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -530,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477460338110</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Handling inner classes">
+      <created>1477465212288</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1477465212288</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -641,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/ProcessorElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="39" />
+        <state relative-caret-position="209">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
