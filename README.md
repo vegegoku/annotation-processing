@@ -159,6 +159,3 @@ sample test case
 for more testing examples please refer to the copier annotation processor project.
 
 Enjoy :-)
-
-This is editted by Rafat.
-Re-edited by Bawaneh.
