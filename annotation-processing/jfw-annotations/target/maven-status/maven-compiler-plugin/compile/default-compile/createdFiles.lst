@@ -1,0 +1,7 @@
+com/progressoft/jfw/annotations/copier/WithCopier$Mode.class
+com/progressoft/jfw/annotations/copier/WithCopier.class
+com/progressoft/jfw/annotations/builder/BuilderRequired.class
+com/progressoft/jfw/annotations/copier/CollectionCopy.class
+com/progressoft/jfw/annotations/copier/IgnoreCopy.class
+com/progressoft/jfw/annotations/builder/WithBuilder.class
+com/progressoft/jfw/annotations/copier/DeepCopy.class

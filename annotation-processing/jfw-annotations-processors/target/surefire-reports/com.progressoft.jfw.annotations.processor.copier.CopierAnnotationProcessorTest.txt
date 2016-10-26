@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.progressoft.jfw.annotations.processor.copier.CopierAnnotationProcessorTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.963 sec <<< FAILURE! - in com.progressoft.jfw.annotations.processor.copier.CopierAnnotationProcessorTest
+givenAClassAnnotatedAsWithCopierAndHasInnerClassAnnotatedAsCopier_shouldGenerateCopiersForBothClasses(com.progressoft.jfw.annotations.processor.copier.CopierAnnotationProcessorTest)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:1077)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:382)
+	at com.progressoft.jfw.annotations.processor.copier.CopierAnnotationProcessorTest.getExpectedResultFileContent(CopierAnnotationProcessorTest.java:130)
+	at com.progressoft.jfw.annotations.processor.copier.CopierAnnotationProcessorTest.givenAClassAnnotatedAsWithCopierAndHasInnerClassAnnotatedAsCopier_shouldGenerateCopiersForBothClasses(CopierAnnotationProcessorTest.java:121)
+

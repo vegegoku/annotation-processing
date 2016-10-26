@@ -1,0 +1,2 @@
+com.progressoft.jfw.annotations.processor.builder.BuilderAnnotationProcessor
+com.progressoft.jfw.annotations.processor.copier.CopierAnnotationProcessor

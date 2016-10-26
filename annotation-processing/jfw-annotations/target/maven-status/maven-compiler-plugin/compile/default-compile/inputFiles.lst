@@ -1,0 +1,6 @@
+/mnt/Development/Git projects/annotation-processing/annotation-processing/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/builder/BuilderRequired.java
+/mnt/Development/Git projects/annotation-processing/annotation-processing/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/WithCopier.java
+/mnt/Development/Git projects/annotation-processing/annotation-processing/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/IgnoreCopy.java
+/mnt/Development/Git projects/annotation-processing/annotation-processing/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/DeepCopy.java
+/mnt/Development/Git projects/annotation-processing/annotation-processing/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/CollectionCopy.java
+/mnt/Development/Git projects/annotation-processing/annotation-processing/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/builder/WithBuilder.java

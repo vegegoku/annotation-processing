@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.progressoft.jfw.annotations.processor.builder.BuilderProcessorTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.289 sec <<< FAILURE! - in com.progressoft.jfw.annotations.processor.builder.BuilderProcessorTest
+annotatedClassHavingInnerClass_shouldGenerateBuilderForBothClasses(com.progressoft.jfw.annotations.processor.builder.BuilderProcessorTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:1077)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:382)
+	at com.progressoft.jfw.annotations.processor.builder.BuilderProcessorTest.getExpectedResultFileContent(BuilderProcessorTest.java:71)
+	at com.progressoft.jfw.annotations.processor.builder.BuilderProcessorTest.annotatedClassHavingInnerClass_shouldGenerateBuilderForBothClasses(BuilderProcessorTest.java:66)
+
