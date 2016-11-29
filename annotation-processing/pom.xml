@@ -10,6 +10,7 @@
         <module>jfw-annotations-processors</module>
         <module>processor-utils</module>
         <module>processor-testing</module>
+        <module>Sample</module>
     </modules>
     <packaging>pom</packaging>
 

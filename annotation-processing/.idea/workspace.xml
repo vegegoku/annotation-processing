@@ -1,8 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a8342fc-18d6-4eae-b639-3f8d89dba97a" name="Default" comment="Handling inner classes">
+    <list default="true" id="2a8342fc-18d6-4eae-b639-3f8d89dba97a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sample/Sample.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sample/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sample/src/main/java/org/akab/engine/Sample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/src/main/java/com/progressoft/fitnesse/Calculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/src/test/java/com/progressoft/fitnesse/CalculatorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/src/test/java/com/progressoft/fitnesse/fixtures/CalculatorFixture.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/builder/BuilderAnnotationProcessor.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/builder/BuilderAnnotationProcessor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/builder/BuilderWriter.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/builder/BuilderWriter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/CopierAnnotationProcessor.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/CopierAnnotationProcessor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/CopierWriter.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/CopierWriter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/FieldCopyStatementFactory.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/FieldCopyStatementFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/FieldsCopyStatementGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/FieldsCopyStatementGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/AccessorSingleFieldCopyGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/AccessorSingleFieldCopyGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/ArrayAccessorCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/ArrayAccessorCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/ArrayListAccessorCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/ArrayListAccessorCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/HashMapAccessorCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/HashMapAccessorCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/HashSetAccessorCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/HashSetAccessorCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/LinkedListAccessorCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/LinkedListAccessorCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/ArrayListPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/ArrayListPublicFieldGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/ArrayPublicFieldCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/ArrayPublicFieldCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/HashMapPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/HashMapPublicFieldGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/HashSetPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/HashSetPublicFieldGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/LinkedListPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/LinkedListPublicFieldGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/SimplePublicFieldCopyGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/SimplePublicFieldCopyGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/java/com/progressoft/jfw/annotations/processor/builder/BuilderProcessorTest.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/java/org/akab/engine/annotations/processor/builder/BuilderProcessorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/java/com/progressoft/jfw/annotations/processor/copier/CopierAnnotationProcessorTest.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/java/org/akab/engine/annotations/processor/copier/CopierAnnotationProcessorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithInnerClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithInnerClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithManyFields.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithManyFields.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithRequiredFields.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithRequiredFields.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithSingleProperty.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithSingleProperty.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithStaticFields.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithStaticFields.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/EmptyAnnotatedClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/EmptyAnnotatedClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/NotAnnotatedClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/NotAnnotatedClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/AnnotatedClassWithInnerClassBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithInnerClassBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/AnnotatedClassWithStaticFieldsBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithStaticFieldsBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/EmptyAnnotatedClassBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/EmptyAnnotatedClassBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/InnerClassBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/InnerClassBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithCollections.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithCollections.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithDeepCopyField.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithDeepCopyField.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithDeepCopyPublicField.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithDeepCopyPublicField.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithFields2.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithFields2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithFields3.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithFields3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithFields4.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithFields4.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithIgnoredFieldUsingAccessors.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithIgnoredFieldUsingAccessors.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithIgnoredFieldUsingPublicFields.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithIgnoredFieldUsingPublicFields.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithInnerClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithInnerClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithPublicCollections.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithPublicCollections.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithPublicMemebersAndNoAccessories.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithPublicMemebersAndNoAccessories.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithSingleField.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithSingleField.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithStaticFields.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithStaticFields.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithVariablesAndCollection.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithVariablesAndCollection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/EmptyAnnotatedClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/EmptyAnnotatedClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/NoneAnnotatedSource.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/NoneAnnotatedSource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/SecondEmptyAnnotatedClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/SecondEmptyAnnotatedClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithCollectionsCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithCollectionsCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithFields2Copier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields2Copier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithFields3Copier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields3Copier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithFields4Copier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields4Copier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithInnerClassCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithInnerClassCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithPublicCollectionsCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithPublicCollectionsCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithSingleFieldCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithSingleFieldCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithStaticFieldsCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithStaticFieldsCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithVariablesAndCollectionCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithVariablesAndCollectionCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/EmptyAnnotatedClassResult.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/EmptyAnnotatedClassResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/InnerClassCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/InnerClassCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/SecondEmptyAnnotatedClassResult.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/SecondEmptyAnnotatedClassResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/builder/BuilderRequired.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/builder/BuilderRequired.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/builder/WithBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/builder/WithBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/CollectionCopy.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/CollectionCopy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/DeepCopy.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/DeepCopy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/IgnoreCopy.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/IgnoreCopy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/WithCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/WithCopier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-testing/src/main/java/com/progressoft/jfw/annotations/processor/test/InputSource.java" afterPath="$PROJECT_DIR$/processor-testing/src/main/java/org/akab/engine/annotations/processor/test/InputSource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-testing/src/main/java/com/progressoft/jfw/annotations/processor/test/ProcessorAssert.java" afterPath="$PROJECT_DIR$/processor-testing/src/main/java/org/akab/engine/annotations/processor/test/ProcessorAssert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-testing/src/main/java/com/progressoft/jfw/annotations/processor/test/TargetProcessor.java" afterPath="$PROJECT_DIR$/processor-testing/src/main/java/org/akab/engine/annotations/processor/test/TargetProcessor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/ImportsWriter.java" afterPath="$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/ImportsWriter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/JavaSourceWriter.java" afterPath="$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/JavaSourceWriter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/JfwProcessor.java" afterPath="$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/JfwProcessor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/ProcessingException.java" afterPath="$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/ProcessingException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/ProcessorElement.java" afterPath="$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/ProcessorElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jfw-annotations-processors/jfw-annotations-processors.iml" afterPath="$PROJECT_DIR$/jfw-annotations-processors/jfw-annotations-processors.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jfw-annotations-processors/pom.xml" afterPath="$PROJECT_DIR$/jfw-annotations-processors/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor-testing/pom.xml" afterPath="$PROJECT_DIR$/processor-testing/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor-testing/processor-testing.iml" afterPath="$PROJECT_DIR$/processor-testing/processor-testing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor-utils/pom.xml" afterPath="$PROJECT_DIR$/processor-utils/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor-utils/processor-utils.iml" afterPath="$PROJECT_DIR$/processor-utils/processor-utils.iml" />
     </list>
     <ignored path="annotation-processing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,6 +115,7 @@
     <ignored path="$PROJECT_DIR$/jfw-annotations/target/" />
     <ignored path="$PROJECT_DIR$/processor-testing/target/" />
     <ignored path="$PROJECT_DIR$/processor-utils/target/" />
+    <ignored path="$PROJECT_DIR$/Sample/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,58 +131,125 @@
     <favorites_list name="annotation-processing" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AnnotatedClassWithInnerClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithInnerClass.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SecondEmptyAnnotatedClassResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/SecondEmptyAnnotatedClassResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="108">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TargetProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor-testing/src/main/java/com/progressoft/jfw/annotations/processor/test/TargetProcessor.java">
+      <file leaf-file-name="CopierAnnotationProcessorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/java/org/akab/engine/annotations/processor/copier/CopierAnnotationProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+            <state relative-caret-position="1728">
+              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessorElement.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/ProcessorElement.java">
+      <file leaf-file-name="AnnotatedClassWithVariablesAndCollectionCopier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithVariablesAndCollectionCopier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JfwProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/JfwProcessor.java">
+      <file leaf-file-name="AnnotatedClassWithPublicCollectionsCopier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithPublicCollectionsCopier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="36">
+              <caret line="8" column="102" lean-forward="false" selection-start-line="8" selection-start-column="102" selection-end-line="8" selection-end-column="102" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuilderProcessorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/java/com/progressoft/jfw/annotations/processor/builder/BuilderProcessorTest.java">
+      <file leaf-file-name="AnnotatedClassWithCollectionsCopier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithCollectionsCopier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatedClassWithDeepCopyPublicFieldCopier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="103" lean-forward="false" selection-start-line="2" selection-start-column="103" selection-end-line="2" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatedClassWithDeepCopyFieldCopier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopierAnnotationProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/CopierAnnotationProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="18" column="80" lean-forward="false" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WithCopier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/WithCopier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.results</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/jfw-annotations-processors</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -96,15 +268,44 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/processor-testing/src/main/java/com/progressoft/jfw/annotations/processor/test/TargetProcessor.java" />
+        <option value="$PROJECT_DIR$/Sample/pom.xml" />
+        <option value="$PROJECT_DIR$/Sample/src/main/java/com/progressoft/jfw/Sample.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/pom.xml" />
+        <option value="$PROJECT_DIR$/processor-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/processor-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/java/org/akab/engine/annotations/processor/builder/BuilderProcessorTest.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/java/org/akab/engine/annotations/processor/copier/CopierAnnotationProcessorTest.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithDeepCopyField.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/builder/BuilderAnnotationProcessor.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithInnerClassBuilder.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/InnerClassBuilder.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithStaticFieldsBuilder.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/EmptyAnnotatedClassBuilder.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields2Copier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields3Copier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields4Copier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithInnerClassCopier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithSingleFieldCopier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithStaticFieldsCopier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/EmptyAnnotatedClassResult.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/InnerClassCopier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/SecondEmptyAnnotatedClassResult.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/CopierAnnotationProcessor.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithCollectionsCopier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithPublicCollectionsCopier.java" />
+        <option value="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithVariablesAndCollectionCopier.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -118,14 +319,7 @@
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -142,6 +336,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -149,85 +346,17 @@
               <option name="myItemId" value="annotation-processing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="annotation-processing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation-processing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation-processing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation-processing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="processor-utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation-processing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation-processing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="processor-utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation-processing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation-processing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="processor-utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="JUnit.All in jfw-annotations-processors">
     <configuration default="false" name="All in jfw-annotations-processors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -255,9 +384,10 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -267,7 +397,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -275,7 +405,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -300,7 +434,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -355,27 +493,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -467,34 +584,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in jfw-annotations-processors" />
     </list>
@@ -503,6 +592,30 @@
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in jfw-annotations-processors" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -536,26 +649,45 @@
       <option name="project" value="LOCAL" />
       <updated>1477465212288</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Handling inner classes">
+      <created>1477466010032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1477466010032</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_jfw-annotations-processors - 2016.10.26 at 00h 51m 33s.xml">
+    <history-entry file="All_in_jfw-annotations-processors - 2016.11.28 at 12h 36m 54s.xml">
       <configuration name="All in jfw-annotations-processors" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_jfw-annotations-processors - 2016.10.26 at 08h 50m 57s.xml">
+    <history-entry file="All_in_jfw-annotations-processors - 2016.11.28 at 12h 37m 29s.xml">
       <configuration name="All in jfw-annotations-processors" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_jfw-annotations-processors - 2016.10.26 at 09h 50m 16s.xml">
+    <history-entry file="All_in_jfw-annotations-processors - 2016.11.28 at 12h 38m 35s.xml">
       <configuration name="All in jfw-annotations-processors" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_jfw-annotations-processors - 2016.10.26 at 09h 57m 03s.xml">
+    <history-entry file="All_in_jfw-annotations-processors - 2016.11.28 at 12h 41m 50s.xml">
       <configuration name="All in jfw-annotations-processors" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_jfw-annotations-processors - 2016.10.26 at 09h 57m 23s.xml">
+    <history-entry file="All_in_jfw-annotations-processors - 2016.11.28 at 12h 43m 01s.xml">
       <configuration name="All in jfw-annotations-processors" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_jfw-annotations-processors - 2016.10.26 at 09h 57m 46s.xml">
+    <history-entry file="All_in_jfw-annotations-processors - 2016.11.28 at 12h 43m 49s.xml">
+      <configuration name="All in jfw-annotations-processors" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_jfw-annotations-processors - 2016.11.28 at 12h 45m 12s.xml">
+      <configuration name="All in jfw-annotations-processors" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_jfw-annotations-processors - 2016.11.28 at 12h 46m 53s.xml">
+      <configuration name="All in jfw-annotations-processors" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_jfw-annotations-processors - 2016.11.28 at 12h 47m 42s.xml">
+      <configuration name="All in jfw-annotations-processors" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_jfw-annotations-processors - 2016.11.28 at 12h 49m 20s.xml">
       <configuration name="All in jfw-annotations-processors" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -565,28 +697,32 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2565097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -613,42 +749,379 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithInnerClass.java">
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithInnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="198">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor-testing/src/main/java/org/akab/engine/annotations/processor/test/TargetProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="13" column="77" lean-forward="false" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/ProcessorElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/JfwProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/java/org/akab/engine/annotations/processor/builder/BuilderProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/ProcessorElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/builder/BuilderRequired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/JfwProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/java/com/progressoft/jfw/annotations/processor/builder/BuilderProcessorTest.java">
+    <entry file="file://$PROJECT_DIR$/Sample/src/main/java/org/akab/engine/Sample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor-testing/src/main/java/org/akab/engine/annotations/processor/test/InputSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor-testing/src/main/java/org/akab/engine/annotations/processor/test/ProcessorAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor-testing/src/main/java/org/akab/engine/annotations/processor/test/TargetProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="35" column="10" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="35" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor-testing/src/main/java/com/progressoft/jfw/annotations/processor/test/TargetProcessor.java">
+    <entry file="file://$PROJECT_DIR$/processor-testing/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        <state relative-caret-position="504">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/JfwProcessor.java">
+    <entry file="file://$PROJECT_DIR$/processor-utils/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="504">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/ProcessorElement.java">
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithInnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithCollections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithDeepCopyField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/builder/WithBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/builder/BuilderAnnotationProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/java/org/akab/engine/annotations/processor/builder/BuilderProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithInnerClassBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithStaticFieldsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/EmptyAnnotatedClassBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/InnerClassBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields2Copier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields3Copier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields4Copier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithInnerClassCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithSingleFieldCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithStaticFieldsCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/EmptyAnnotatedClassResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/InnerClassCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/SecondEmptyAnnotatedClassResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/WithCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/CopierAnnotationProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="80" lean-forward="false" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="103" lean-forward="false" selection-start-line="2" selection-start-column="103" selection-end-line="2" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithCollectionsCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithPublicCollectionsCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="8" column="102" lean-forward="false" selection-start-line="8" selection-start-column="102" selection-end-line="8" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/java/org/akab/engine/annotations/processor/copier/CopierAnnotationProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithVariablesAndCollectionCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfw-annotations-processors/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
           <folding />
         </state>
       </provider>

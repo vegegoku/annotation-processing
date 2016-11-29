@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sample/Sample.iml" filepath="$PROJECT_DIR$/Sample/Sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotation-processing.iml" filepath="$PROJECT_DIR$/annotation-processing.iml" />
       <module fileurl="file://$PROJECT_DIR$/jfw-annotations/jfw-annotations.iml" filepath="$PROJECT_DIR$/jfw-annotations/jfw-annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/jfw-annotations-processors/jfw-annotations-processors.iml" filepath="$PROJECT_DIR$/jfw-annotations-processors/jfw-annotations-processors.iml" />
