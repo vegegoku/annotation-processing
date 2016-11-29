@@ -1,0 +1,7 @@
+org/akab/engine/annotations/copier/IgnoreCopy.class
+org/akab/engine/annotations/copier/CollectionCopy.class
+org/akab/engine/annotations/copier/WithCopier$Mode.class
+org/akab/engine/annotations/copier/DeepCopy.class
+org/akab/engine/annotations/copier/WithCopier.class
+org/akab/engine/annotations/builder/WithBuilder.class
+org/akab/engine/annotations/builder/BuilderRequired.class

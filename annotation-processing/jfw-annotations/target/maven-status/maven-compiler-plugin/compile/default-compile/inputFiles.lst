@@ -1,0 +1,6 @@
+/mnt/PROJECTS/GIT/annotation-processing/annotation-processing/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/IgnoreCopy.java
+/mnt/PROJECTS/GIT/annotation-processing/annotation-processing/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/DeepCopy.java
+/mnt/PROJECTS/GIT/annotation-processing/annotation-processing/jfw-annotations/src/main/java/org/akab/engine/annotations/builder/WithBuilder.java
+/mnt/PROJECTS/GIT/annotation-processing/annotation-processing/jfw-annotations/src/main/java/org/akab/engine/annotations/builder/BuilderRequired.java
+/mnt/PROJECTS/GIT/annotation-processing/annotation-processing/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/WithCopier.java
+/mnt/PROJECTS/GIT/annotation-processing/annotation-processing/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/CollectionCopy.java

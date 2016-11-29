@@ -2,111 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8342fc-18d6-4eae-b639-3f8d89dba97a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sample/Sample.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sample/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sample/src/main/java/org/akab/engine/Sample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/src/main/java/com/progressoft/fitnesse/Calculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/src/test/java/com/progressoft/fitnesse/CalculatorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../fitnesse-sample/src/test/java/com/progressoft/fitnesse/fixtures/CalculatorFixture.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/builder/BuilderAnnotationProcessor.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/builder/BuilderAnnotationProcessor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/builder/BuilderWriter.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/builder/BuilderWriter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/CopierAnnotationProcessor.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/CopierAnnotationProcessor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/CopierWriter.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/CopierWriter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/FieldCopyStatementFactory.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/FieldCopyStatementFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/FieldsCopyStatementGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/FieldsCopyStatementGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/AccessorSingleFieldCopyGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/AccessorSingleFieldCopyGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/ArrayAccessorCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/ArrayAccessorCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/ArrayListAccessorCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/ArrayListAccessorCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/HashMapAccessorCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/HashMapAccessorCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/HashSetAccessorCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/HashSetAccessorCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/accessor/LinkedListAccessorCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/accessor/LinkedListAccessorCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/ArrayListPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/ArrayListPublicFieldGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/ArrayPublicFieldCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/ArrayPublicFieldCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/HashMapPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/HashMapPublicFieldGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/HashSetPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/HashSetPublicFieldGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/LinkedListPublicFieldGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/LinkedListPublicFieldGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/com/progressoft/jfw/annotations/processor/copier/generators/publicmembers/SimplePublicFieldCopyGenerator.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/main/java/org/akab/engine/annotations/processor/copier/generators/publicmembers/SimplePublicFieldCopyGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/java/com/progressoft/jfw/annotations/processor/builder/BuilderProcessorTest.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/java/org/akab/engine/annotations/processor/builder/BuilderProcessorTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/java/com/progressoft/jfw/annotations/processor/copier/CopierAnnotationProcessorTest.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/java/org/akab/engine/annotations/processor/copier/CopierAnnotationProcessorTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithInnerClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithInnerClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithManyFields.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithManyFields.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithRequiredFields.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithRequiredFields.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithSingleProperty.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithSingleProperty.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/AnnotatedClassWithStaticFields.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/AnnotatedClassWithStaticFields.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/EmptyAnnotatedClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/EmptyAnnotatedClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/NotAnnotatedClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/NotAnnotatedClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/AnnotatedClassWithInnerClassBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithInnerClassBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithManyFieldsBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithRequiredFieldsBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithSinglePropertyBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/AnnotatedClassWithStaticFieldsBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/AnnotatedClassWithStaticFieldsBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/EmptyAnnotatedClassBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/EmptyAnnotatedClassBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/builder/results/InnerClassBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/builder/results/InnerClassBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithCollections.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithCollections.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithDeepCopyField.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithDeepCopyField.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithDeepCopyPublicField.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithDeepCopyPublicField.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithFields2.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithFields2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithFields3.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithFields3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithFields4.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithFields4.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithIgnoredFieldUsingAccessors.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithIgnoredFieldUsingAccessors.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithIgnoredFieldUsingPublicFields.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithIgnoredFieldUsingPublicFields.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithInnerClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithInnerClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithPublicCollections.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithPublicCollections.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithPublicMemebersAndNoAccessories.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithPublicMemebersAndNoAccessories.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithSingleField.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithSingleField.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithStaticFields.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithStaticFields.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/AnnotatedClassWithVariablesAndCollection.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/AnnotatedClassWithVariablesAndCollection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/EmptyAnnotatedClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/EmptyAnnotatedClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/NoneAnnotatedSource.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/NoneAnnotatedSource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/SecondEmptyAnnotatedClass.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/SecondEmptyAnnotatedClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithCollectionsCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithCollectionsCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithDeepCopyFieldCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithDeepCopyPublicFieldCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithFields2Copier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields2Copier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithFields3Copier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields3Copier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithFields4Copier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithFields4Copier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithIgnoreFieldUsingPublicFieldsCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithIgnoredFieldUsingAccessorsCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithInnerClassCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithInnerClassCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithPublicCollectionsCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithPublicCollectionsCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithPublicMemebersAndNoAccessoriesCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithSingleFieldCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithSingleFieldCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithStaticFieldsCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithStaticFieldsCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/AnnotatedClassWithVariablesAndCollectionCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/AnnotatedClassWithVariablesAndCollectionCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/EmptyAnnotatedClassResult.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/EmptyAnnotatedClassResult.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/InnerClassCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/InnerClassCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/com/progressoft/jfw/annotations/processor/copier/results/SecondEmptyAnnotatedClassResult.java" afterPath="$PROJECT_DIR$/jfw-annotations-processors/src/test/resources/org/akab/engine/annotations/processor/copier/results/SecondEmptyAnnotatedClassResult.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/builder/BuilderRequired.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/builder/BuilderRequired.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/builder/WithBuilder.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/builder/WithBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/CollectionCopy.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/CollectionCopy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/DeepCopy.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/DeepCopy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/IgnoreCopy.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/IgnoreCopy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jfw-annotations/src/main/java/com/progressoft/jfw/annotations/copier/WithCopier.java" afterPath="$PROJECT_DIR$/jfw-annotations/src/main/java/org/akab/engine/annotations/copier/WithCopier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-testing/src/main/java/com/progressoft/jfw/annotations/processor/test/InputSource.java" afterPath="$PROJECT_DIR$/processor-testing/src/main/java/org/akab/engine/annotations/processor/test/InputSource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-testing/src/main/java/com/progressoft/jfw/annotations/processor/test/ProcessorAssert.java" afterPath="$PROJECT_DIR$/processor-testing/src/main/java/org/akab/engine/annotations/processor/test/ProcessorAssert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-testing/src/main/java/com/progressoft/jfw/annotations/processor/test/TargetProcessor.java" afterPath="$PROJECT_DIR$/processor-testing/src/main/java/org/akab/engine/annotations/processor/test/TargetProcessor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/ImportsWriter.java" afterPath="$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/ImportsWriter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/JavaSourceWriter.java" afterPath="$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/JavaSourceWriter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/JfwProcessor.java" afterPath="$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/JfwProcessor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/ProcessingException.java" afterPath="$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/ProcessingException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/processor-utils/src/main/java/com/progressoft/jfw/annotations/processor/utils/ProcessorElement.java" afterPath="$PROJECT_DIR$/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/ProcessorElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jfw-annotations-processors/jfw-annotations-processors.iml" afterPath="$PROJECT_DIR$/jfw-annotations-processors/jfw-annotations-processors.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jfw-annotations-processors/pom.xml" afterPath="$PROJECT_DIR$/jfw-annotations-processors/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor-testing/pom.xml" afterPath="$PROJECT_DIR$/processor-testing/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor-testing/processor-testing.iml" afterPath="$PROJECT_DIR$/processor-testing/processor-testing.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor-utils/pom.xml" afterPath="$PROJECT_DIR$/processor-utils/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor-utils/processor-utils.iml" afterPath="$PROJECT_DIR$/processor-utils/processor-utils.iml" />
     </list>
     <ignored path="annotation-processing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -656,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477466010032</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change the package">
+      <created>1480453414212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480453414212</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -738,7 +641,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Handling inner classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handling inner classes" />
+    <MESSAGE value="change the package" />
+    <option name="LAST_COMMIT_MESSAGE" value="change the package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -753,6 +657,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,6 +665,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="13" column="77" lean-forward="false" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -767,6 +675,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#937#938#0" expanded="false" />
+            <element signature="e#1014#1015#0" expanded="false" />
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1139#1140#0" expanded="false" />
+            <element signature="e#1181#1182#0" expanded="false" />
+            <element signature="e#1225#1226#0" expanded="false" />
+            <element signature="e#1260#1261#0" expanded="false" />
+            <element signature="e#1310#1311#0" expanded="false" />
+            <element signature="e#1355#1356#0" expanded="false" />
+            <element signature="e#1420#1421#0" expanded="false" />
+            <element signature="e#1454#1455#0" expanded="false" />
+            <element signature="e#1511#1512#0" expanded="false" />
+            <element signature="e#1584#1585#0" expanded="false" />
+            <element signature="e#1640#1641#0" expanded="false" />
+            <element signature="e#4451#4452#0" expanded="false" />
+            <element signature="e#4515#4516#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -774,6 +701,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -781,6 +711,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -788,6 +721,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#937#938#0" expanded="false" />
+            <element signature="e#1014#1015#0" expanded="false" />
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1139#1140#0" expanded="false" />
+            <element signature="e#1181#1182#0" expanded="false" />
+            <element signature="e#1225#1226#0" expanded="false" />
+            <element signature="e#1260#1261#0" expanded="false" />
+            <element signature="e#1310#1311#0" expanded="false" />
+            <element signature="e#1355#1356#0" expanded="false" />
+            <element signature="e#1420#1421#0" expanded="false" />
+            <element signature="e#1454#1455#0" expanded="false" />
+            <element signature="e#1511#1512#0" expanded="false" />
+            <element signature="e#1584#1585#0" expanded="false" />
+            <element signature="e#1640#1641#0" expanded="false" />
+            <element signature="e#4451#4452#0" expanded="false" />
+            <element signature="e#4515#4516#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -805,6 +757,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -820,6 +775,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -827,6 +783,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -834,6 +791,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#211#212#0" expanded="false" />
+            <element signature="e#263#264#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#396#397#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -841,6 +804,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#154#155#0" expanded="false" />
+            <element signature="e#208#209#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -848,6 +815,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -879,6 +849,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,6 +857,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,6 +867,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -908,6 +885,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -915,6 +895,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -922,6 +905,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -929,6 +913,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -936,6 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -943,6 +929,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -950,6 +937,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -957,6 +945,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -964,6 +953,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -971,6 +961,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -978,6 +969,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -985,6 +977,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -992,6 +985,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -999,6 +993,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,6 +1001,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,6 +1009,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,6 +1017,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,6 +1025,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,6 +1033,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,6 +1041,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

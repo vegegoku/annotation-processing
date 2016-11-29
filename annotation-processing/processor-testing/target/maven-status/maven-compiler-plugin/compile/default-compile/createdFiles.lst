@@ -1,0 +1,3 @@
+org/akab/engine/annotations/processor/test/TargetProcessor.class
+org/akab/engine/annotations/processor/test/InputSource.class
+org/akab/engine/annotations/processor/test/ProcessorAssert.class

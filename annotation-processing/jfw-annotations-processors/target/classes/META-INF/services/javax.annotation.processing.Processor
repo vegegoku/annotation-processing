@@ -1,0 +1,2 @@
+org.akab.engine.annotations.processor.builder.BuilderAnnotationProcessor
+org.akab.engine.annotations.processor.copier.CopierAnnotationProcessor
