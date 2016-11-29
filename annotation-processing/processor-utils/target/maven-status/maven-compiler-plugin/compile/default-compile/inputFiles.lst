@@ -1,5 +1,5 @@
-/mnt/PROJECTS/GIT/annotation-processing/annotation-processing/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/JfwProcessor.java
 /mnt/PROJECTS/GIT/annotation-processing/annotation-processing/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/ProcessorElement.java
 /mnt/PROJECTS/GIT/annotation-processing/annotation-processing/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/ProcessingException.java
+/mnt/PROJECTS/GIT/annotation-processing/annotation-processing/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/BaseProcessor.java
 /mnt/PROJECTS/GIT/annotation-processing/annotation-processing/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/JavaSourceWriter.java
 /mnt/PROJECTS/GIT/annotation-processing/annotation-processing/processor-utils/src/main/java/org/akab/engine/annotations/processor/utils/ImportsWriter.java

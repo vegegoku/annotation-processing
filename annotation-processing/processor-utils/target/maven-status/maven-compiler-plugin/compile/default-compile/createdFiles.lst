@@ -1,5 +1,5 @@
 org/akab/engine/annotations/processor/utils/ImportsWriter.class
 org/akab/engine/annotations/processor/utils/ProcessorElement.class
 org/akab/engine/annotations/processor/utils/ProcessingException.class
-org/akab/engine/annotations/processor/utils/JfwProcessor.class
 org/akab/engine/annotations/processor/utils/JavaSourceWriter.class
+org/akab/engine/annotations/processor/utils/BaseProcessor.class
