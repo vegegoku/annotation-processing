@@ -19,11 +19,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.progressoft.jfw</groupId>
-            <artifactId>jfw-annotations</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>org.akab.engine</groupId>
             <artifactId>processor-utils</artifactId>
             <version>1.0-SNAPSHOT</version>

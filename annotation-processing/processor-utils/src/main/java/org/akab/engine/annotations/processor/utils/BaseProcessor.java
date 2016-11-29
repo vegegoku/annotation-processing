@@ -14,7 +14,7 @@ import javax.tools.StandardLocation;
 import java.io.IOException;
 import java.io.Writer;
 
-public abstract class JfwProcessor extends AbstractProcessor {
+public abstract class BaseProcessor extends AbstractProcessor {
 
     protected Types typeUtils;
     protected Elements elementUtils;

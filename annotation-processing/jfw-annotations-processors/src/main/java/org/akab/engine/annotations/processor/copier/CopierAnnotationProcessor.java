@@ -3,7 +3,7 @@ package org.akab.engine.annotations.processor.copier;
 import com.google.auto.service.AutoService;
 import org.akab.engine.annotations.copier.WithCopier;
 import org.akab.engine.annotations.processor.copier.generators.FieldsCopyStatementGenerator;
-import org.akab.engine.annotations.processor.utils.JfwProcessor;
+import org.akab.engine.annotations.processor.utils.BaseProcessor;
 import org.akab.engine.annotations.processor.utils.ProcessorElement;
 
 import javax.annotation.processing.*;
@@ -18,7 +18,7 @@ import java.util.Set;
 @AutoService(value = Processor.class)
 @SupportedAnnotationTypes(value = "org.akab.engine.annotations.copier.WithCopier")
 @SupportedSourceVersion(value = SourceVersion.RELEASE_8)
-public class CopierAnnotationProcessor extends JfwProcessor {
+public class CopierAnnotationProcessor extends BaseProcessor {
 
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {

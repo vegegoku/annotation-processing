@@ -2,7 +2,7 @@ package org.akab.engine.annotations.processor.builder;
 
 import com.google.auto.service.AutoService;
 import org.akab.engine.annotations.builder.WithBuilder;
-import org.akab.engine.annotations.processor.utils.JfwProcessor;
+import org.akab.engine.annotations.processor.utils.BaseProcessor;
 import org.akab.engine.annotations.processor.utils.ProcessorElement;
 
 import javax.annotation.processing.Processor;
@@ -20,7 +20,7 @@ import java.util.Set;
 @AutoService(Processor.class)
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 @SupportedAnnotationTypes(value = "org.akab.engine.annotations.builder.WithBuilder")
-public class BuilderAnnotationProcessor extends JfwProcessor {
+public class BuilderAnnotationProcessor extends BaseProcessor {
 
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
